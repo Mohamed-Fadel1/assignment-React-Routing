@@ -1,0 +1,45 @@
+
+
+.colorh1 {
+    color: #2c3e50 ;
+}
+
+
+.portfolioImage {
+    transition: transform 0.3s ease-in-out; 
+  }
+
+  
+  
+  .portfolioImage:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3); /* يمكنك تغيير القيمة هنا لتحقيق لون مختلف */
+  }
+
+
+
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+
+.lightBox {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxData {
+    width: 48%;
+    height: 70vh;
+background-image: url(../../assets/images//poert1.png);
+background-size: 100% 100%;
+}
